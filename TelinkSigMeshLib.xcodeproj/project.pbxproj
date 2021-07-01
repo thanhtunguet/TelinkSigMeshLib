@@ -120,8 +120,6 @@
 		2528951B2468F13400E590F9 /* SigUpperTransportPdu.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D88C192361459100D4F0F7 /* SigUpperTransportPdu.m */; };
 		2528951C2468F13400E590F9 /* SigProvisioningManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25335F61235EF339006C79C1 /* SigProvisioningManager.m */; };
 		2528951D2468F13400E590F9 /* SigProvisioningData.m in Sources */ = {isa = PBXBuildFile; fileRef = 25335F62235EF339006C79C1 /* SigProvisioningData.m */; };
-		252895322468F6F300E590F9 /* SigRemoteAddManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2528952D2468F6F200E590F9 /* SigRemoteAddManager.m */; };
-		252895352468F6F300E590F9 /* MeshOTAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 252895312468F6F200E590F9 /* MeshOTAManager.m */; };
 		252ABF62236057A70096563F /* SigMeshMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 252ABF5E236057A60096563F /* SigMeshMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		252ABF63236057A70096563F /* SigMeshMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 252ABF5F236057A60096563F /* SigMeshMessage.m */; };
 		252ABF64236057A70096563F /* SigConfigMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 252ABF60236057A60096563F /* SigConfigMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -415,9 +413,6 @@
 		25151BF82362F2AC00967668 /* SigMessageHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SigMessageHandle.h; sourceTree = "<group>"; };
 		25151BF92362F2AC00967668 /* SigMessageHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigMessageHandle.m; sourceTree = "<group>"; };
 		252895292468F13400E590F9 /* TelinkSigMeshLibExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TelinkSigMeshLibExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2528952A2468F13400E590F9 /* TelinkSigMeshLib copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TelinkSigMeshLib copy-Info.plist"; path = "/Users/liangjiazhi/Downloads/源码/私有仓库/TelinkSigMeshLib/TelinkSigMeshLib/TelinkSigMeshLib copy-Info.plist"; sourceTree = "<absolute>"; };
-		2528952D2468F6F200E590F9 /* SigRemoteAddManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigRemoteAddManager.m; sourceTree = "<group>"; };
-		252895312468F6F200E590F9 /* MeshOTAManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshOTAManager.m; sourceTree = "<group>"; };
 		252ABF5E236057A60096563F /* SigMeshMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigMeshMessage.h; sourceTree = "<group>"; };
 		252ABF5F236057A60096563F /* SigMeshMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigMeshMessage.m; sourceTree = "<group>"; };
 		252ABF60236057A60096563F /* SigConfigMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigConfigMessage.h; sourceTree = "<group>"; };
@@ -559,7 +554,6 @@
 		25B95FED238E595600244D14 /* SigConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigConst.m; sourceTree = "<group>"; };
 		25C0AFD9235D597400846CFB /* TelinkSigMeshLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TelinkSigMeshLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C0AFDC235D597400846CFB /* TelinkSigMeshLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelinkSigMeshLib.h; sourceTree = "<group>"; };
-		25C0AFDD235D597400846CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25C30DBD2469304300F06076 /* SigRemoteAddManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigRemoteAddManager.h; sourceTree = "<group>"; };
 		25C30DC02469309600F06076 /* MeshOTAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshOTAManager.h; sourceTree = "<group>"; };
 		25CE4E58254A910E004E6F12 /* TelinkSigMeshLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelinkSigMeshLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -609,6 +603,7 @@
 		25FF2F512446EFDC0084263F /* GMEllipticCurveCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMEllipticCurveCrypto.h; sourceTree = "<group>"; };
 		25FF2F532446EFDC0084263F /* GMEllipticCurveCrypto+hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMEllipticCurveCrypto+hash.h"; sourceTree = "<group>"; };
 		25FF2F562446EFDC0084263F /* GMEllipticCurveCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMEllipticCurveCrypto.m; sourceTree = "<group>"; };
+		53D38064268D5AA6000BA1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -641,32 +636,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2528952B2468F6F200E590F9 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2528952C2468F6F200E590F9 /* remote provision */,
-				2528952F2468F6F200E590F9 /* MeshOTA */,
-			);
-			name = Extensions;
-			path = ../../Extensions;
-			sourceTree = "<group>";
-		};
-		2528952C2468F6F200E590F9 /* remote provision */ = {
-			isa = PBXGroup;
-			children = (
-				2528952D2468F6F200E590F9 /* SigRemoteAddManager.m */,
-			);
-			path = "remote provision";
-			sourceTree = "<group>";
-		};
-		2528952F2468F6F200E590F9 /* MeshOTA */ = {
-			isa = PBXGroup;
-			children = (
-				252895312468F6F200E590F9 /* MeshOTAManager.m */,
-			);
-			path = MeshOTA;
-			sourceTree = "<group>";
-		};
 		25335CB3235ED9EE006C79C1 /* Layers */ = {
 			isa = PBXGroup;
 			children = (
@@ -996,7 +965,6 @@
 				25C0AFDB235D597400846CFB /* TelinkSigMeshLib */,
 				25CE4E59254A910E004E6F12 /* TelinkSigMeshLibTests */,
 				25C0AFDA235D597400846CFB /* Products */,
-				2528952A2468F13400E590F9 /* TelinkSigMeshLib copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1013,12 +981,12 @@
 		25C0AFDB235D597400846CFB /* TelinkSigMeshLib */ = {
 			isa = PBXGroup;
 			children = (
+				53D38064268D5AA6000BA1B3 /* Info.plist */,
 				25C0AFDC235D597400846CFB /* TelinkSigMeshLib.h */,
 				25335F55235EEC61006C79C1 /* SigEnumeration.h */,
 				25335F54235EEC61006C79C1 /* SigStruct.h */,
 				252ABF6623605B330096563F /* SigMeshLib.h */,
 				252ABF6723605B330096563F /* SigMeshLib.m */,
-				2528952B2468F6F200E590F9 /* Extensions */,
 				25335F5D235EF339006C79C1 /* Add devices Module */,
 				25335D42235ED9EF006C79C1 /* Bearer */,
 				25335CB3235ED9EE006C79C1 /* Layers */,
@@ -1027,7 +995,6 @@
 				25335D58235ED9EF006C79C1 /* Third Library */,
 				25335DAC235ED9EF006C79C1 /* Type Extensions */,
 				25335DD4235ED9F0006C79C1 /* Utils */,
-				25C0AFDD235D597400846CFB /* Info.plist */,
 				25335C6D235EB046006C79C1 /* TelinkSigMeshLibPrefixHeader.pch */,
 			);
 			path = TelinkSigMeshLib;
@@ -1506,7 +1473,6 @@
 				252894F22468F13400E590F9 /* SigPublishManager.m in Sources */,
 				252894F32468F13400E590F9 /* SigBearer.m in Sources */,
 				252894F42468F13400E590F9 /* SDKLibCommand.m in Sources */,
-				252895322468F6F300E590F9 /* SigRemoteAddManager.m in Sources */,
 				252894F62468F13400E590F9 /* SigAccessLayer.m in Sources */,
 				252894F72468F13400E590F9 /* SigControlMessage.m in Sources */,
 				252894F82468F13400E590F9 /* SigDataSource.m in Sources */,
@@ -1531,7 +1497,6 @@
 				2528950E2468F13400E590F9 /* SigUpperTransportLayer.m in Sources */,
 				2528950F2468F13400E590F9 /* SigKeyBindManager.m in Sources */,
 				252895102468F13400E590F9 /* SigMeshLib.m in Sources */,
-				252895352468F6F300E590F9 /* MeshOTAManager.m in Sources */,
 				252895132468F13400E590F9 /* SigLogger.m in Sources */,
 				252895142468F13400E590F9 /* CBUUID+Hex.m in Sources */,
 				252895152468F13400E590F9 /* SigECCEncryptHelper.m in Sources */,
@@ -1625,7 +1590,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = J3AJAYU5N6;
+				DEVELOPMENT_TEAM = 4JBU2XTM9L;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1664,7 +1629,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = J3AJAYU5N6;
+				DEVELOPMENT_TEAM = 4JBU2XTM9L;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
